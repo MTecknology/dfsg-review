@@ -1,0 +1,10 @@
+# python
+*.py[cod]
+__pycache__/
+dist/
+
+# sphinx-doc
+_build
+
+# sqlite
+*.sqlite

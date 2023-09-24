@@ -1,0 +1,67 @@
+# dcheck.cli.options
+#cli_opt_filename: 
+#cli_opt_directory: 
+#cli_opt_package: 
+#cli_opt_file: 
+
+# dcheck.checks.integrity
+# memo_* > dcheck.gui.review
+#check_integrity_title: 
+#check_integrity_cksum: 
+#memo_integrity_cksum: 
+#check_integrity_dep5: 
+#memo_integrity_dep5: 
+
+# dcheck.core.inspect
+#changes_status_unknown: 
+
+# dcheck.gui.about
+#about_title: 
+#about_description: 
+#about_info_tab: 
+#about_info_blurb: 
+#about_license_tab: 
+#about_license_blurb: 
+
+# dcheck.gui.menu
+#menu_file: 
+#menu_pkgnav: 
+#menu_exit: 
+#menu_view: 
+#menu_control: 
+#menu_copyright: 
+#menu_help: 
+#menu_about: 
+
+# dcheck.gui.pkgnav
+#error_unpack_title: 
+#error_unpack_message: 
+#status_pkgselect: 
+#status_empty: 
+#pkg_age: 
+#pkg_name: 
+#pkg_status: 
+#pkg_version: 
+#queue_empty: 
+#pkgstatus_unknown: 
+#pkgstatus_reviewed: 
+
+# dcheck.gui.review
+#pane_all_checks: 
+#pane_pkg_checks: 
+#pane_file_checks: 
+#tab_allchecks_pkg: 
+#tab_allchecks_file: 
+#tab_pkgcheck_memo: 
+#tab_pkgcheck_action: 
+#pane_file_nav: 
+#pane_file_view: 
+#pane_file_info: 
+#status_checkselect: 
+#status_fileselect: 
+#pane_persistent_files:
+
+# dcheck.gui.window
+#app_title: 
+
+# dcheck.web.TODO

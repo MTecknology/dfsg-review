@@ -1,0 +1,66 @@
+##
+# DCheck Settings
+##
+# This file provides a description of each configuration option available in
+# DFSG Package Review (DCheck) utility along with the default value.
+#
+# DCheck will try to load a configuration file in the following order:
+# 1) env[DCHECK_CONFIG], 2)./config.yml, 3) /etc/dcheck//config.yml
+##
+
+
+##
+# Runtime
+##
+
+# Minimum log level to be presented
+#loglevel: INFO
+
+# Enabled checklists
+#checklists: [integrity]
+
+# Default locale
+#default_lang: en
+
+
+##
+# Directories
+##
+
+# Directory of packages that must be reviewed.
+#workspace_dir: /var/cache/dcheck/extracted
+
+# Directory to temporarily unpack packages for review.
+#pending_dir: /var/cache/dcheck/pending
+
+# Directory with language translations
+#i18n_dir: dcheck/i18n
+
+# Location of image
+#images_dir: None
+
+##
+# Data Storage
+##
+
+# Backend storage engine (available: redis, sqlite)
+#data_engine: redis
+
+# Path of sqlite file
+#sqlite_path: ./dcheck-data.sqlite
+
+# Redis connection information.
+#redis_url: redis://127.0.0.1:6379/0
+
+##
+# GUI
+##
+
+# Workspace Layout
+#     (available panels)
+#     AllChecklists, PackageChecklist, FileChecklist,
+#     FileList, FileContents, FileInfo, PersistentFiles
+#layout:
+#    left: [AllChecklists, FileList]
+#    center: [FileContents, FileInfo]
+#    right: [PersistentFiles]

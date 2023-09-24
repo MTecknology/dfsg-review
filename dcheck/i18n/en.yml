@@ -1,0 +1,87 @@
+# dcheck.cli.options
+cli_opt_filename: Path to .changes file to be reviewed
+cli_opt_directory: Root location of incoming package data
+cli_opt_package: List of available package checks
+cli_opt_file: List of available file checks
+
+# dcheck.checks.integrity
+# memo_* > dcheck.gui.review
+check_integrity_title: Verify Integrity
+check_integrity_cksum: Checksums presented in .changes files are valid
+memo_integrity_cksum: Memo about the cksum check
+check_integrity_dep5: d/copyright is in DEP5 format
+memo_integrity_dep5: Memo about the dep5 check
+
+# dcheck.core.inspect
+changes_status_unknown: Unknown
+
+# dcheck.gui.about
+about_title: About DCheck
+about_description: DFSG Package Review (DCheck) helps ensure packages are DFSG-compliant.
+about_info_tab: Info
+about_info_blurb: |
+  DFSG Package Review (DCheck) is a tool designed to assist Debian package
+  maintainers with reviewing packages for compliance with the Debian Free
+  Software Guidelines (DFSG) and Debian Policy.
+
+  This tool is intended to help ensure every single file within a package
+  always meets stringent standards while eliminating redundant reviews.
+about_license_tab: License
+about_license_blurb: |
+  DFSG Package Review (DCheck)
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU Affero General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU Affero General Public License for more details.
+
+  You should have received a copy of the GNU Affero General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# dcheck.gui.menu
+menu_file: File
+menu_pkgnav: Select Package
+menu_exit: Exit
+menu_view: View
+menu_control: Display d/control
+menu_copyright: Display d/copyright
+menu_help: Help
+menu_about: About
+
+# dcheck.gui.pkgnav
+error_unpack_title: Unpack Error
+error_unpack_message: Error encountered during package extraction. See log for details.
+status_pkgselect: Select a package to review ...
+status_empty: No changes files found in current directory
+pkg_age: Age
+pkg_name: Name
+pkg_status: Status
+pkg_version: Version
+queue_empty: The queue is empty!
+pkgstatus_unknown: Uknown
+pkgstatus_reviewed: Reviewed
+
+# dcheck.gui.review
+pane_all_checks: Review Checklists
+pane_pkg_checks: Package Checklist
+pane_file_checks: File Checklist
+tab_allchecks_pkg: Package Checks
+tab_allchecks_file: File Checks
+tab_pkgcheck_memo: Memo
+tab_pkgcheck_action: Action
+pane_file_nav: Project Files
+pane_file_view: File Contents
+pane_file_info: File Information
+status_checkselect: Select a checklist item to begin ...
+status_fileselect: Select a file to review ...
+pane_persistent_files: Pinned Files
+
+# dcheck.gui.window
+app_title: DFSG Package Review
+
+# dcheck.web.TODO
